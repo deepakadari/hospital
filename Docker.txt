@@ -1,0 +1,94 @@
+Docker with console application:
+
+Step-1:
+C:\Users\799468>mkdir  java-docker-app  
+
+Step-2:
+Create a Java File(Hello.java) (C:\Users\799468\java-docker-app)
+// Hello.java
+
+class Hello{  
+public static void main(String[] args){  
+System.out.println("This is java app \n by using Docker");  
+}  
+}  
+
+Step-3:
+Create a Dockerfile(Dockerfile.txt) location:(C:\Users\799468\java-docker-app)
+
+// Dockerfile
+
+FROM java:8  
+COPY . /var/www/java  
+WORKDIR /var/www/java  
+RUN javac Hello.java  
+CMD ["java", "Hello"]  
+
+Step-4:
+C:\Users\799468>cd java-docker-app
+
+Step-5:
+C:\Users\799468\java-docker-app>docker login
+
+provide your credentials
+
+Step-6:
+
+C:\Users\799468\java-docker-app>docker container ls --all
+
+Step-7:
+
+C:\Users\799468\java-docker-app>docker build -t java-app -f ./Dockerfile.txt .
+
+
+Step-8:
+C:\Users\799468\java-docker-app>docker run java-app
+
+
+
+
+
+
+
+
+
+
+Docker with SpringBoot application:
+
+Step-1:
+Create a spring boot application with artifact id as "Spring-boot-docker" and package as com.cts.
+
+Step-2
+Create a class with name "HelloController"
+
+package com.cts;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloController {
+    @GetMapping("/hello")
+    public String hello(){
+        return "Hello from docker";
+    }
+}
+
+Step-3:
+Create a Docker file named "Dockerfile" and paste the below code in that
+
+FROM openjdk:8
+ADD target/Spring-boot-docker-0.0.1-SNAPSHOT.jar spring-boot-docker.jar
+EXPOSE 8090
+ENTRYPOINT ["java", "-jar", "spring-boot-docker.jar"]
+
+Step-4:
+C:\Users\799357\java-docker-app>docker build -f ./Dockerfile.txt -t spring-boot-docker .
+
+Step-5:
+C:\Users\799468\java-docker-app>docker run -p 8090 docker
+
+Step-6:
+C:\Users\799468\java-docker-app>docker tag java-app dockeruserId/java-app
+
+Step-7:
+C:\Users\799468\java-docker-app>docker push dockeruserId/java-app

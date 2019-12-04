@@ -1,0 +1,224 @@
+09:36:18.192 [restartedMain] INFO  c.c.a.AuthenticationServiceMediApplication - Starting AuthenticationServiceMediApplication on PC419003 with PID 9016 (started by 799486 in C:\Users\799486\Desktop\799486 final project\authentication-service-medi)
+09:36:18.273 [restartedMain] INFO  c.c.a.AuthenticationServiceMediApplication - No active profile set, falling back to default profiles: default
+09:36:18.349 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\799486\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/799486/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/799486/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/799486/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/799486/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/799486/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/799486/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+09:36:18.350 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:36:18.351 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+09:36:19.636 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+09:36:19.753 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 98ms. Found 4 repository interfaces.
+09:36:20.118 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:36:20.845 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+09:36:20.855 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:36:20.856 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+09:36:20.941 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:36:20.942 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2591 ms
+09:36:21.280 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+09:36:21.461 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.8.Final}
+09:36:21.734 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+09:36:21.971 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+09:36:22.313 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+09:36:22.375 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+09:36:23.845 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:36:23.877 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09:36:23.914 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:36:24.571 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+09:36:24.699 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+09:36:24.984 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+09:36:24.986 [restartedMain] INFO  c.c.a.AuthenticationServiceMediApplication - Started AuthenticationServiceMediApplication in 7.416 seconds (JVM running for 8.17)
+09:40:33.698 [restartedMain] INFO  c.c.a.AuthenticationServiceMediApplication - Starting AuthenticationServiceMediApplication on PC419003 with PID 22316 (started by 799486 in C:\Users\799486\Desktop\799486 final project\authentication-service-medi)
+09:40:33.701 [restartedMain] INFO  c.c.a.AuthenticationServiceMediApplication - No active profile set, falling back to default profiles: default
+09:40:33.756 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\799486\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/799486/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/799486/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/799486/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/799486/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/799486/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/799486/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+09:40:33.756 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:40:33.757 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+09:40:34.748 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+09:40:34.863 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 102ms. Found 4 repository interfaces.
+09:40:35.311 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:40:35.724 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+09:40:35.738 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:40:35.739 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+09:40:35.856 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:40:35.856 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2099 ms
+09:40:36.099 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+09:40:36.208 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.8.Final}
+09:40:36.464 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+09:40:36.580 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+09:40:36.737 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+09:40:36.757 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+09:40:37.703 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:40:37.710 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09:40:37.724 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:40:38.281 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+09:40:38.425 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+09:40:38.719 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+09:40:38.720 [restartedMain] INFO  c.c.a.AuthenticationServiceMediApplication - Started AuthenticationServiceMediApplication in 5.511 seconds (JVM running for 6.141)
+09:51:56.750 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:51:56.750 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:51:56.762 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+09:51:57.069 [http-nio-8084-exec-2] DEBUG org.hibernate.SQL - select * from patient  where first_name=?
+09:51:57.189 [http-nio-8084-exec-2] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [kk]
+09:51:57.352 [http-nio-8084-exec-2] DEBUG org.hibernate.SQL - insert into patient (address_line_1, address_line_2, age, alt_contact_number, city, contact_number, d_o_b, mail_id, first_name, flag, gender, last_name, password, state, zip_code) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+09:51:57.354 [http-nio-8084-exec-2] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [ersdf]
+09:51:57.355 [http-nio-8084-exec-2] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [edfas]
+09:51:57.356 [http-nio-8084-exec-2] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [3] as [INTEGER] - [24]
+09:51:57.357 [http-nio-8084-exec-2] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [4] as [NUMERIC] - [9876247]
+09:51:57.357 [http-nio-8084-exec-2] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [5] as [VARCHAR] - [k]
+09:51:57.357 [http-nio-8084-exec-2] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [6] as [NUMERIC] - [9536211]
+09:51:57.358 [http-nio-8084-exec-2] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [7] as [TIMESTAMP] - [Sun Aug 08 05:30:00 IST 1993]
+09:51:57.359 [http-nio-8084-exec-2] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [8] as [VARCHAR] - [kk@gmail.com]
+09:51:57.360 [http-nio-8084-exec-2] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [9] as [VARCHAR] - [kk]
+09:51:57.361 [http-nio-8084-exec-2] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [10] as [BOOLEAN] - [false]
+09:51:57.361 [http-nio-8084-exec-2] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [11] as [VARCHAR] - [Male]
+09:51:57.361 [http-nio-8084-exec-2] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [12] as [VARCHAR] - [k]
+09:51:57.362 [http-nio-8084-exec-2] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [13] as [VARCHAR] - [pwd]
+09:51:57.362 [http-nio-8084-exec-2] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [14] as [VARCHAR] - [k]
+09:51:57.362 [http-nio-8084-exec-2] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [15] as [NUMERIC] - [342]
+09:52:21.482 [http-nio-8084-exec-3] DEBUG org.hibernate.SQL - select * from patient  where first_name=?
+09:52:21.485 [http-nio-8084-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [kk]
+09:52:21.488 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([patient_id] : [INTEGER]) - [6]
+09:52:21.491 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([address_line_1] : [VARCHAR]) - [ersdf]
+09:52:21.492 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([address_line_2] : [VARCHAR]) - [edfas]
+09:52:21.493 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([age] : [INTEGER]) - [24]
+09:52:21.494 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([alt_contact_number] : [NUMERIC]) - [9876247]
+09:52:21.494 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([city] : [VARCHAR]) - [k]
+09:52:21.495 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([contact_number] : [NUMERIC]) - [9536211]
+09:52:21.496 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([d_o_b] : [TIMESTAMP]) - [1993-08-08 00:00:00.0]
+09:52:21.497 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([mail_id] : [VARCHAR]) - [kk@gmail.com]
+09:52:21.497 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([first_name] : [VARCHAR]) - [kk]
+09:52:21.498 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([flag] : [BOOLEAN]) - [false]
+09:52:21.498 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([gender] : [VARCHAR]) - [Male]
+09:52:21.498 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([last_name] : [VARCHAR]) - [k]
+09:52:21.498 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([password] : [VARCHAR]) - [pwd]
+09:52:21.499 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([state] : [VARCHAR]) - [k]
+09:52:21.499 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([zip_code] : [NUMERIC]) - [342]
+09:52:42.650 [http-nio-8084-exec-4] DEBUG org.hibernate.SQL - select * from patient  where first_name=?
+09:52:42.651 [http-nio-8084-exec-4] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [kk]
+09:52:42.652 [http-nio-8084-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([patient_id] : [INTEGER]) - [6]
+09:52:42.653 [http-nio-8084-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([address_line_1] : [VARCHAR]) - [ersdf]
+09:52:42.653 [http-nio-8084-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([address_line_2] : [VARCHAR]) - [edfas]
+09:52:42.654 [http-nio-8084-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([age] : [INTEGER]) - [24]
+09:52:42.654 [http-nio-8084-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([alt_contact_number] : [NUMERIC]) - [9876247]
+09:52:42.654 [http-nio-8084-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([city] : [VARCHAR]) - [k]
+09:52:42.654 [http-nio-8084-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([contact_number] : [NUMERIC]) - [9536211]
+09:52:42.655 [http-nio-8084-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([d_o_b] : [TIMESTAMP]) - [1993-08-08 00:00:00.0]
+09:52:42.655 [http-nio-8084-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([mail_id] : [VARCHAR]) - [kk@gmail.com]
+09:52:42.655 [http-nio-8084-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([first_name] : [VARCHAR]) - [kk]
+09:52:42.656 [http-nio-8084-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([flag] : [BOOLEAN]) - [false]
+09:52:42.656 [http-nio-8084-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([gender] : [VARCHAR]) - [Male]
+09:52:42.657 [http-nio-8084-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([last_name] : [VARCHAR]) - [k]
+09:52:42.657 [http-nio-8084-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([password] : [VARCHAR]) - [pwd]
+09:52:42.657 [http-nio-8084-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([state] : [VARCHAR]) - [k]
+09:52:42.657 [http-nio-8084-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([zip_code] : [NUMERIC]) - [342]
+09:53:50.265 [http-nio-8084-exec-6] DEBUG org.hibernate.SQL - select * from doctor  where first_name=?
+09:53:50.266 [http-nio-8084-exec-6] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [rahul]
+09:53:50.269 [http-nio-8084-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([doctor_id] : [INTEGER]) - [8]
+09:53:50.269 [http-nio-8084-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([address_line_1] : [VARCHAR]) - [vishakapatnam]
+09:53:50.270 [http-nio-8084-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([address_line_2] : [VARCHAR]) - [vizag]
+09:53:50.270 [http-nio-8084-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([age] : [INTEGER]) - [36]
+09:53:50.270 [http-nio-8084-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([alt_contact_number] : [NUMERIC]) - [97865435]
+09:53:50.271 [http-nio-8084-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([city] : [VARCHAR]) - [hyd]
+09:53:50.271 [http-nio-8084-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([contact_number] : [NUMERIC]) - [96583256]
+09:53:50.271 [http-nio-8084-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([degree] : [VARCHAR]) - [btech]
+09:53:50.271 [http-nio-8084-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([d_o_b] : [TIMESTAMP]) - [1998-03-03 00:00:00.0]
+09:53:50.272 [http-nio-8084-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([email_id] : [VARCHAR]) - [rahul@gmail.com]
+09:53:50.272 [http-nio-8084-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([first_name] : [VARCHAR]) - [rahul]
+09:53:50.272 [http-nio-8084-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([flag] : [BOOLEAN]) - [true]
+09:53:50.273 [http-nio-8084-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([gender] : [VARCHAR]) - [Male]
+09:53:50.273 [http-nio-8084-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([hospital_name] : [VARCHAR]) - [seven hills]
+09:53:50.273 [http-nio-8084-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([last_name] : [VARCHAR]) - [varma]
+09:53:50.273 [http-nio-8084-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([medicare_services_id_fk] : [INTEGER]) - [5]
+09:53:50.274 [http-nio-8084-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([password] : [VARCHAR]) - [pwd]
+09:53:50.274 [http-nio-8084-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([specialty] : [VARCHAR]) - [MD]
+09:53:50.274 [http-nio-8084-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([state] : [VARCHAR]) - [ap]
+09:53:50.274 [http-nio-8084-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([work_hours] : [VARCHAR]) - [4 Hrs]
+09:53:50.275 [http-nio-8084-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([zip_code] : [NUMERIC]) - [5632]
+09:53:50.281 [http-nio-8084-exec-6] DEBUG org.hibernate.SQL - select medicare0_.medicare_service_id as medicare1_3_0_, medicare0_.amount as amount2_3_0_, medicare0_.medicare_service as medicare3_3_0_, medicare0_.service_description as service_4_3_0_ from medicare_services medicare0_ where medicare0_.medicare_service_id=?
+09:53:50.282 [http-nio-8084-exec-6] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [5]
+09:53:50.287 [http-nio-8084-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([amount2_3_0_] : [NUMERIC]) - [100000]
+09:53:50.288 [http-nio-8084-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([medicare3_3_0_] : [VARCHAR]) - [Radiology]
+09:53:50.288 [http-nio-8084-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([service_4_3_0_] : [VARCHAR]) - [Radiology which is used to shrink a tumor before surgery or radiation therapy. Chemo used in this way is called neoadjuvant therapy.]
+13:13:38.212 [restartedMain] INFO  c.c.a.AuthenticationServiceMediApplication - Starting AuthenticationServiceMediApplication on PC419003 with PID 18060 (started by 799486 in C:\Users\799486\Desktop\799486 final project\authentication-service-medi)
+13:13:38.294 [restartedMain] INFO  c.c.a.AuthenticationServiceMediApplication - No active profile set, falling back to default profiles: default
+13:13:38.353 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\799486\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/799486/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/799486/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/799486/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/799486/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/799486/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/799486/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+13:13:38.353 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:13:38.354 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:13:39.790 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+13:13:39.904 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 98ms. Found 4 repository interfaces.
+13:13:40.334 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:13:42.375 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+13:13:42.386 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:13:42.387 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+13:13:42.481 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:13:42.482 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4128 ms
+13:13:43.698 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:13:45.160 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.8.Final}
+13:13:45.864 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+13:13:46.125 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:13:46.555 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:13:46.628 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+13:13:49.593 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:13:49.614 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:13:49.645 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+13:13:50.900 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:13:51.117 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+13:13:56.543 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+13:13:56.549 [restartedMain] INFO  c.c.a.AuthenticationServiceMediApplication - Started AuthenticationServiceMediApplication in 19.013 seconds (JVM running for 19.741)
+13:26:25.664 [http-nio-8084-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:26:25.665 [http-nio-8084-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:26:25.671 [http-nio-8084-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+13:26:25.994 [http-nio-8084-exec-2] DEBUG org.hibernate.SQL - select * from admin  where first_name=?
+13:26:26.140 [http-nio-8084-exec-2] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [admin]
+13:26:26.180 [http-nio-8084-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([admin_id] : [INTEGER]) - [1]
+13:26:26.193 [http-nio-8084-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([age] : [INTEGER]) - [22]
+13:26:26.195 [http-nio-8084-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([alt_contact_number] : [NUMERIC]) - [9553981083]
+13:26:26.200 [http-nio-8084-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([contact_number] : [NUMERIC]) - [9652829077]
+13:26:26.216 [http-nio-8084-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([d_o_b] : [TIMESTAMP]) - [2019-11-16 00:00:00.0]
+13:26:26.218 [http-nio-8084-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([email_id] : [VARCHAR]) - [dee]
+13:26:26.219 [http-nio-8084-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([first_name] : [VARCHAR]) - [admin]
+13:26:26.221 [http-nio-8084-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([gender] : [VARCHAR]) - [male]
+13:26:26.222 [http-nio-8084-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([last_name] : [VARCHAR]) - [adari]
+13:26:26.222 [http-nio-8084-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([password] : [VARCHAR]) - [pwd]
+13:27:20.621 [http-nio-8084-exec-1] DEBUG org.hibernate.SQL - select * from doctor  where first_name=?
+13:27:20.624 [http-nio-8084-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [bharath]
+13:27:20.625 [http-nio-8084-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([doctor_id] : [INTEGER]) - [4]
+13:27:20.626 [http-nio-8084-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([address_line_1] : [VARCHAR]) - [dsgsgg]
+13:27:20.626 [http-nio-8084-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([address_line_2] : [VARCHAR]) - [afdfafd]
+13:27:20.627 [http-nio-8084-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([age] : [INTEGER]) - [25]
+13:27:20.627 [http-nio-8084-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([alt_contact_number] : [NUMERIC]) - [96154785]
+13:27:20.627 [http-nio-8084-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([city] : [VARCHAR]) - [dfsd]
+13:27:20.628 [http-nio-8084-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([contact_number] : [NUMERIC]) - [963218754]
+13:27:20.628 [http-nio-8084-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([degree] : [VARCHAR]) - [btech]
+13:27:20.628 [http-nio-8084-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([d_o_b] : [TIMESTAMP]) - [1998-05-05 00:00:00.0]
+13:27:20.629 [http-nio-8084-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([email_id] : [VARCHAR]) - [deepak.@gmail.com]
+13:27:20.629 [http-nio-8084-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([first_name] : [VARCHAR]) - [bharath]
+13:27:20.630 [http-nio-8084-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([flag] : [BOOLEAN]) - [true]
+13:27:20.630 [http-nio-8084-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([gender] : [VARCHAR]) - [Male]
+13:27:20.631 [http-nio-8084-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([hospital_name] : [VARCHAR]) - [manipal]
+13:27:20.631 [http-nio-8084-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([last_name] : [VARCHAR]) - [kudumula]
+13:27:20.631 [http-nio-8084-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([medicare_services_id_fk] : [INTEGER]) - [2]
+13:27:20.631 [http-nio-8084-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([password] : [VARCHAR]) - [pwd]
+13:27:20.632 [http-nio-8084-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([specialty] : [VARCHAR]) - [mnb]
+13:27:20.633 [http-nio-8084-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([state] : [VARCHAR]) - [ap]
+13:27:20.633 [http-nio-8084-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([work_hours] : [VARCHAR]) - [3 Hrs]
+13:27:20.634 [http-nio-8084-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([zip_code] : [NUMERIC]) - [50236]
+13:27:20.647 [http-nio-8084-exec-1] DEBUG org.hibernate.SQL - select medicare0_.medicare_service_id as medicare1_3_0_, medicare0_.amount as amount2_3_0_, medicare0_.medicare_service as medicare3_3_0_, medicare0_.service_description as service_4_3_0_ from medicare_services medicare0_ where medicare0_.medicare_service_id=?
+13:27:20.648 [http-nio-8084-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [2]
+13:27:20.655 [http-nio-8084-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([amount2_3_0_] : [NUMERIC]) - [3003]
+13:27:20.656 [http-nio-8084-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([medicare3_3_0_] : [VARCHAR]) - [neurology]
+13:27:20.656 [http-nio-8084-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([service_4_3_0_] : [VARCHAR]) - [specializes in treatidfhhng diseases of the nervous system. ... Illnesses, disorders, and injuries that involve the nervous system often require a neurologist’s management and treatment]
+13:27:33.674 [http-nio-8084-exec-3] DEBUG org.hibernate.SQL - select * from patient  where first_name=?
+13:27:33.676 [http-nio-8084-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [deepak]
+13:27:33.693 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([patient_id] : [INTEGER]) - [1]
+13:27:33.694 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([address_line_1] : [VARCHAR]) - [301]
+13:27:33.694 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([address_line_2] : [VARCHAR]) - [oak gardens]
+13:27:33.694 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([age] : [INTEGER]) - [22]
+13:27:33.695 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([alt_contact_number] : [NUMERIC]) - [9502217622]
+13:27:33.696 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([city] : [VARCHAR]) - [vijayawada]
+13:27:33.696 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([contact_number] : [NUMERIC]) - [9703898363]
+13:27:33.697 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([d_o_b] : [TIMESTAMP]) - [1997-11-16 00:00:00.0]
+13:27:33.697 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([mail_id] : [VARCHAR]) - [deepakdeepu1083@gmail.com]
+13:27:33.698 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([first_name] : [VARCHAR]) - [deepak]
+13:27:33.698 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([flag] : [BOOLEAN]) - [true]
+13:27:33.698 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([gender] : [VARCHAR]) - [male]
+13:27:33.698 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([last_name] : [VARCHAR]) - [adari]
+13:27:33.699 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([password] : [VARCHAR]) - [pwd]
+13:27:33.699 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([state] : [VARCHAR]) - [ap]
+13:27:33.700 [http-nio-8084-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor - extracted value ([zip_code] : [NUMERIC]) - [521104]
