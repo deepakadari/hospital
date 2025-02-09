@@ -24,6 +24,7 @@ public class LoginController {
 
 	@GetMapping("/admin/{name}/{pwd}")
 	public boolean authenticateadmin(@PathVariable String name,@PathVariable String pwd) throws UserAlreadyExists {
+		//This is a test
 		return loginService.authenticateadmin(name,pwd);
 	}
 
